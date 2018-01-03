@@ -70,9 +70,12 @@ namespace ImageGallery.Client
                 // client side 
                 //CallbackPath = new PathString("....."),
 
+                //SignedOutCallbackPath = new PathString("")
+
                 SignInScheme = "Cookies",
                 SaveTokens = true,
-                ClientSecret ="secret"
+                ClientSecret = "secret",
+                GetClaimsFromUserInfoEndpoint = true
 
 
             });
